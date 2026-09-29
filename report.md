@@ -497,5 +497,16 @@ MSSV: 23120066
 ## AI Critique
 Trong bài tập này, AI thường xuyên đưa ra nội dung sai lệch ở Requirement 2, khi được yêu cầu tìm hiểu và tổng hợp về các lỗi phần mềm. Lỗi AI mắc nhiều nhất là lỗi bịa nguồn dẫn chứng, dù đã được yêu cầu nguồn phải tồn tại và nêu rõ "Không tìm thấy" nếu không tìm được nguồn tương ứng. AI thường mắc phải lỗi này khi dẫn các nguồn từ báo chí, mẫu hình thường gặp khi AI bịa nguồn là lấy url của 1 trang báo lớn và gắn với tên sự cố. Một lỗi khác thường gặp trong nội dung này là AI gán sai tên cho sự cố và phóng đại hậu quả. Từ đó có thể rút ra một nguyên tắc quan trọng khi làm việc với AI cần kiểm tra kỹ các nguồn dẫn chứng AI đưa ra thật sự tồn tại và khớp với nội dung được sinh ra.
 
+## Self-Assessment
+|No.|Criteria|Grade|Self-Assessed Grade|
+|:--|:--|:--|:--|
+|1|Job Market 2026+ (10 jobs × 3 pts + AI Impact)|40|35|
+|2|Software Defects 2022–2026 (20 defects)|20|15|
+|3|Physical-product test design (15 TCs + 5 videos)|25|25|
+|AI-1|[AI-02] AI Audit Report (5-section) attached|8|8|
+|AI-2|AI Critique 200–300 words + [AI-03] Disclosure attached|4|4|
+|AI-3|[AI-05] Checklist signed + anti-cheat artifacts|3|3|
+||Total|100|90|
+
 ## Mandatory Disclosure
 Các thông tin và test cases ban đầu được sinh ra bởi Gemini Flash 3.8; tôi đã kiểm tra và chỉnh sửa các mục 6, 9, 10, 11 và 14 trong Requirement 2 và TC01, TC04, TC09 trong Requirement 3, cũng như thêm TC08 và TC10; các phần Requirement 1, AI Critique và AI Templates được làm hoàn toàn bởi tôi. Bản chi tiết của tài liệu AI Audit Report được đính kèm trong folder ai_templates. Tôi xác nhận tôi không sử dụng AI để sinh ra bất cứ artifact nào thuộc danh mục cấm.
